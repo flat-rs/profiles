@@ -7,3 +7,8 @@ image = { Multiboot = { kernel = { url = "http://images.playground.flat.rs/vmlin
 id = "msdos622"
 name = "MSDOS 6.22"
 image = { Iso = { url = "http://images.playground.flat.rs/DOS6.22_bootdisk.iso", sha256 = "c00f4612390689b1c6c4512177cce1cc3cbc7ad98c9bb8357e61529b0f19eb77" } }
+
+[[profiles]]
+id = "redox0-5-0"
+name = "Redox OS 0.5.0"
+image = { Iso = { url = "http://images.playground.flat.rs/redox_0.5.0_livedisk.iso", sha256 = "d45cb423dc9719f921076434424c524c0ba12778d6e8a90a729b66ee6846b66e" } }
