@@ -1,9 +1,4 @@
 [[profiles]]
-id = "linux-latest"
-name = "Linux (Latest)"
-image = { Multiboot = { kernel = { url = "http://images.playground.flat.rs/vmlinuz-5.3.0-29-generic", sha256 = "d8db09e53436bf874de149e03cf5e3d38af7426cc42123a7482a1820616e9cc1" }, ramdisk = { url = "http://images.playground.flat.rs/initrd.img-5.3.0-29-generic", sha256 = "96985db9f4dadc51091de7ef81153edb478e8bbba855d3e3dcea9b43b0aaf779" } } }
-
-[[profiles]]
 id = "msdos622"
 name = "MSDOS 6.22"
 image = { Iso = { url = "http://images.playground.flat.rs/DOS6.22_bootdisk.iso", sha256 = "c00f4612390689b1c6c4512177cce1cc3cbc7ad98c9bb8357e61529b0f19eb77" } }
@@ -17,3 +12,8 @@ image = { Iso = { url = "http://images.playground.flat.rs/redox_0.5.0_livedisk.i
 id = "alpine-linux"
 name = "Alpine Linux"
 image = { Iso = { url = "http://images.playground.flat.rs/alpine-extended-3.11.3-x86_64.iso", sha256 = "35445abe9860b60d3e2288fd43ddb31af297246e13563e35b032f870cecda3bb" } }
+
+[[profiles]]
+id = "l4linux-demo-cd"
+name = "L4Linux Demo CD"
+image = { Iso = { url = "http://images.playground.flat.rs/l4linux-demo-cd-0-1.iso", sha256 = "e7786602e265ecac4bdec29cd9fd674f71a830e6e98c4938a58cf630b620b725" } }
